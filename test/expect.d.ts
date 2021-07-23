@@ -14,12 +14,4 @@
  * limitations under the License.
  */
 
-"use strict";
-
-function getHelloWorldMessage() {
-  return "Hello World!";
-}
-
-module.exports = {
-  getHelloWorldMessage,
-};
+import "jest-extended";
