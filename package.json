@@ -20,7 +20,8 @@
     "index.ts",
     "tsconfig.json",
     "!dist/*.tsbuildinfo",
-    "!**/__tests__"
+    "!**/__tests__",
+    "!**/*spec.ts"
   ],
   "scripts": {
     "prebuild": "shx rm -rf ./dist",
