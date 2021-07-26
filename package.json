@@ -59,6 +59,7 @@
       "ts",
       "js"
     ],
+    "resetMocks": true,
     "rootDir": "./",
     "roots": [
       "<rootDir>/src",
