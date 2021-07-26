@@ -14,18 +14,8 @@
  * limitations under the License.
  */
 
-import {HelloWorld} from "~/src";
-
-describe("hello-world", () => {
-  let helloWorld: HelloWorld;
-
-  beforeEach(() => {
-    helloWorld = new HelloWorld();
-  });
-
-  it("must return hello world message", () => {
-    expect(helloWorld.getHelloWorldMessage()).toEqualCaseInsensitive(
-      "hello world!",
-    );
-  });
-});
+export class HelloWorldService {
+  public getHelloWorldMessage(): string {
+    return "Hello World!";
+  }
+}

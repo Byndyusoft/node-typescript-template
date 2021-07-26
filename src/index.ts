@@ -14,4 +14,4 @@
  * limitations under the License.
  */
 
-export * from "./hello-world";
+export * from "./hello-world.service";
