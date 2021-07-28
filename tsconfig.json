@@ -10,8 +10,8 @@
     "outDir": "./dist",
     // Editor Support
     "plugins": [
-      {"transform": "typescript-transform-paths"},
-      {"transform": "typescript-transform-paths", "afterDeclarations": true}
+      { "transform": "typescript-transform-paths" },
+      { "transform": "typescript-transform-paths", "afterDeclarations": true }
     ]
   },
   "exclude": ["./dist", "./node_modules"],
