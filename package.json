@@ -81,7 +81,7 @@
     "@byndyusoft/eslint-config": "^1.0.0",
     "@byndyusoft/tsconfig": "^1.0.0",
     "@commitlint/cli": "^13.1.0",
-    "@commitlint/config-conventional": "^12.1.4",
+    "@commitlint/config-conventional": "^13.1.0",
     "@types/jest": "^26.0.24",
     "@types/node": "^16.4.7",
     "eslint": "^7.31.0",
