@@ -359,10 +359,10 @@
     eslint-plugin-unicorn "^33.0.1"
     pkg-dir "^5.0.0"
 
-"@byndyusoft/tsconfig@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@byndyusoft/tsconfig/-/tsconfig-1.0.0.tgz#991737d9e02e91e1b8c20c484c8509a39dc79bfb"
-  integrity sha512-OwP9AOHsZ+zBrfTSx3NnvhcMy+XUhAWS6SRj1P2FgEK6IvC+F68hv/5fyEIe27HX6SgNCcRmzm/3RevGEEPWsQ==
+"@byndyusoft/tsconfig@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@byndyusoft/tsconfig/-/tsconfig-1.1.0.tgz#bc2cf2bf5938db28514677cdf4220e41a5115bb2"
+  integrity sha512-MZ9PyXoI548pt2av6PGeLU0HL8UAL6/uCBA4Qc99sqsxlzb19GtShTJ4LKDIfbL1X42PS43Z2lxLrGKhQw2siw==
   dependencies:
     "@tsconfig/node12" "^1.0.7"
     "@tsconfig/node14" "^1.0.0"

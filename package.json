@@ -79,7 +79,7 @@
   },
   "devDependencies": {
     "@byndyusoft/eslint-config": "^1.0.0",
-    "@byndyusoft/tsconfig": "^1.0.0",
+    "@byndyusoft/tsconfig": "^1.1.0",
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
     "@types/jest": "^27.0.1",
