@@ -96,7 +96,7 @@
     "semantic-release": "^17.4.5",
     "shx": "^0.3.3",
     "ts-jest": "^27.0.5",
-    "ts-patch": "^1.4.2",
+    "ts-patch": "^1.4.3",
     "typescript": "^4.3.5",
     "typescript-transform-paths": "^3.3.1"
   },
