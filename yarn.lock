@@ -7725,14 +7725,16 @@ ts-jest@^27.0.5:
     semver "7.x"
     yargs-parser "20.x"
 
-ts-patch@^1.4.3:
-  version "1.4.3"
-  resolved "https://registry.yarnpkg.com/ts-patch/-/ts-patch-1.4.3.tgz#175b855b70cf29b1783d9935662815d0c362e7ab"
-  integrity sha512-nLCnlWo87JrDnCoydX0HCKvUbQyIvNOWhmDppBxvuLTDlGco6dlIG3uBNQu+PAnu6SBu4miBLmry8nWV5KsAUw==
+ts-patch@^1.4.4:
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/ts-patch/-/ts-patch-1.4.4.tgz#c4814af4ab36183ddcf04c178f0153ce6ef48245"
+  integrity sha512-b0CxxrkrCGsD22gl5BtSFlXzyTFP2mbOVffxMOWRrwdSh37sM01wzxSY4wlbBiHHHAJICmaaDgESzJ8lKkVoZA==
   dependencies:
     chalk "^4.1.0"
+    glob "^7.1.7"
     global-prefix "^3.0.0"
     minimist "^1.2.5"
+    resolve "^1.20.0"
     shelljs "^0.8.4"
     strip-ansi "^6.0.0"
 
