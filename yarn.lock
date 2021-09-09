@@ -333,16 +333,17 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@byndyusoft/eslint-config@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@byndyusoft/eslint-config/-/eslint-config-1.0.0.tgz#b7344baccad6dc9c09b7269e70ff7f8a4975667b"
-  integrity sha512-8HVV6t67jW9cin9b1JW7it/Q0h3C1KahiWsq7pPVCshm4R/OWPf+fwjL3+MD0UXJ6JIJDT1ofenhsle+xb/OlQ==
+"@byndyusoft/eslint-config@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@byndyusoft/eslint-config/-/eslint-config-1.1.0.tgz#4a44d4671813b9bdf487b497883427a1d8dc1f5f"
+  integrity sha512-6kvhieWYO2Cjg6leY5mj4dTvQeIFCbChEYURorrMPortZKeF7iIGBc/C/SgR9yz/C+NDRvp28Z7wVI5KoA3Y3g==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.3.0"
     "@typescript-eslint/parser" "^4.3.0"
     eslint "^7.10.0"
     eslint-config-prettier "^8.3.0"
     eslint-import-resolver-typescript "^2.4.0"
+    eslint-plugin-dirs "^0.0.4"
     eslint-plugin-flowtype "^5.2.0"
     eslint-plugin-header "^3.1.1"
     eslint-plugin-import "^2.22.1"
@@ -2843,6 +2844,17 @@ eslint-module-utils@^2.6.1:
     debug "^3.2.7"
     pkg-dir "^2.0.0"
 
+eslint-plugin-dirs@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-dirs/-/eslint-plugin-dirs-0.0.4.tgz#7908a8e83bb3e33f21611bce8eb3d26a088f0f58"
+  integrity sha512-lOh8S8ag+cOI/Z7FDBgh1ruW+qUD8R0SFamnooPQ0LsWA0B4rqU4WYaTHa7T+liLf07+8WAZ0TkDTSutqTYN4w==
+  dependencies:
+    lodash.get "^4.4.2"
+    lodash.isarray "^4.0.0"
+    lodash.keys "^4.2.0"
+    micromatch "^4.0.4"
+    requireindex "~1.1.0"
+
 eslint-plugin-es@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-es/-/eslint-plugin-es-3.0.1.tgz#75a7cdfdccddc0589934aeeb384175f221c57893"
@@ -5257,6 +5269,16 @@ lodash.flatten@~4.4.0:
   resolved "https://registry.yarnpkg.com/lodash.flatten/-/lodash.flatten-4.4.0.tgz#f31c22225a9632d2bbf8e4addbef240aa765a61f"
   integrity sha1-8xwiIlqWMtK7+OSt2+8kCqdlph8=
 
+lodash.get@^4.4.2:
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
+  integrity sha1-LRd/ZS+jHpObRDjVNBSZ36OCXpk=
+
+lodash.isarray@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/lodash.isarray/-/lodash.isarray-4.0.0.tgz#2aca496b28c4ca6d726715313590c02e6ea34403"
+  integrity sha1-KspJayjEym1yZxUxNZDALm6jRAM=
+
 lodash.ismatch@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/lodash.ismatch/-/lodash.ismatch-4.4.0.tgz#756cb5150ca3ba6f11085a78849645f188f85f37"
@@ -5271,6 +5293,11 @@ lodash.isstring@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/lodash.isstring/-/lodash.isstring-4.0.1.tgz#d527dfb5456eca7cc9bb95d5daeaf88ba54a5451"
   integrity sha1-1SfftUVuynzJu5XV2ur4i6VKVFE=
+
+lodash.keys@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/lodash.keys/-/lodash.keys-4.2.0.tgz#a08602ac12e4fb83f91fc1fb7a360a4d9ba35205"
+  integrity sha1-oIYCrBLk+4P5H8H7ejYKTZujUgU=
 
 lodash.merge@^4.6.2:
   version "4.6.2"
@@ -6801,6 +6828,11 @@ requireindex@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/requireindex/-/requireindex-1.2.0.tgz#3463cdb22ee151902635aa6c9535d4de9c2ef1ef"
   integrity sha512-L9jEkOi3ASd9PYit2cwRfyppc9NoABujTP8/5gFcbERmo5jUoAKovIC3fsF17pkTnGsrByysqX+Kxd2OTNI1ww==
+
+requireindex@~1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/requireindex/-/requireindex-1.1.0.tgz#e5404b81557ef75db6e49c5a72004893fe03e162"
+  integrity sha1-5UBLgVV+91225JxacgBIk/4D4WI=
 
 reserved-words@^0.1.2:
   version "0.1.2"
