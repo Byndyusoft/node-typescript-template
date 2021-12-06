@@ -91,7 +91,7 @@
     "lint-staged": "^12.1.2",
     "markdownlint-cli": "^0.30.0",
     "pinst": "^2.1.6",
-    "prettier": "^2.5.0",
+    "prettier": "^2.5.1",
     "prettier-plugin-packagejson": "^2.2.15",
     "semantic-release": "^18.0.1",
     "shx": "^0.3.3",
