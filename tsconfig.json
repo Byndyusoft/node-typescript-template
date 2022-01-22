@@ -1,5 +1,5 @@
 {
-  "extends": "@byndyusoft/tsconfig/tsconfig.node12.json",
+  "extends": "@byndyusoft/tsconfig/tsconfig.node14.json",
   "compilerOptions": {
     // Modules
     "baseUrl": "./",
