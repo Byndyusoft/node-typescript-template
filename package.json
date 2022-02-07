@@ -89,7 +89,7 @@
     "jest": "^27.4.7",
     "jest-extended": "^1.2.0",
     "lint-staged": "^12.2.2",
-    "markdownlint-cli": "^0.30.0",
+    "markdownlint-cli": "^0.31.0",
     "pinst": "^2.1.6",
     "prettier": "^2.5.1",
     "prettier-plugin-packagejson": "^2.2.15",
