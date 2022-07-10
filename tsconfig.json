@@ -4,6 +4,6 @@
     // Emit
     "outDir": "./dist"
   },
-  "exclude": ["./dist", "./node_modules"],
+  "exclude": ["./dist"],
   "include": ["./**/*.ts"]
 }
