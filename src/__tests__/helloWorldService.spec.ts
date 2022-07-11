@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { HelloWorldService } from "~/src";
+import { HelloWorldService } from "../helloWorldService";
 
 describe("HelloWorldService", () => {
   let helloWorldService: HelloWorldService;
