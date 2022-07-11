@@ -10,15 +10,9 @@
 ## Requirements
 
 - Node.js v14 LTS or later
-- npm or yarn
+- Yarn
 
 ## Install
-
-```bash
-npm install ᐸPackage nameᐳ
-```
-
-or
 
 ```bash
 yarn add ᐸPackage nameᐳ
@@ -34,6 +28,7 @@ yarn add ᐸPackage nameᐳ
 
 - [@Byndyusoft/owners](https://github.com/orgs/Byndyusoft/teams/owners) <<github.maintain@byndyusoft.com>>
 - [@Byndyusoft/team](https://github.com/orgs/Byndyusoft/teams/team)
+- [@KillWolfVlad](https://github.com/KillWolfVlad)
 
 ## License
 
