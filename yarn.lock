@@ -479,7 +479,7 @@ __metadata:
     eslint: "npm:8.19.0"
     husky: "npm:8.0.1"
     jest: "npm:28.1.2"
-    jest-extended: "npm:2.0.0"
+    jest-extended: "npm:3.0.0"
     lint-staged: "npm:13.0.3"
     markdownlint-cli: "npm:0.31.1"
     pinst: "npm:3.0.0"
@@ -3209,13 +3209,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"diff-sequences@npm:^27.5.1":
-  version: 27.5.1
-  resolution: "diff-sequences@npm:27.5.1"
-  checksum: 0100294712df1efa53820b63220653a18ef3c695bd03f5889ae03475ac9dcf6299b0e0492407dae5b3f58dd16d6f0b225955431f631f234ce32230b923de9f6a
-  languageName: node
-  linkType: hard
-
 "diff-sequences@npm:^28.1.1":
   version: 28.1.1
   resolution: "diff-sequences@npm:28.1.1"
@@ -5232,19 +5225,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-diff@npm:^27.2.5":
-  version: 27.5.1
-  resolution: "jest-diff@npm:27.5.1"
-  dependencies:
-    chalk: "npm:^4.0.0"
-    diff-sequences: "npm:^27.5.1"
-    jest-get-type: "npm:^27.5.1"
-    pretty-format: "npm:^27.5.1"
-  checksum: 9a6a623b2cbb37d54e16d6708e11f9d9f3002c2b499a0de136a915231a30f744045bf3f4e5ac081a0b2862fe208c35945062cb8a128221fef46521c80ee652b8
-  languageName: node
-  linkType: hard
-
-"jest-diff@npm:^28.1.1":
+"jest-diff@npm:^28.0.0, jest-diff@npm:^28.1.1":
   version: 28.1.1
   resolution: "jest-diff@npm:28.1.1"
   dependencies:
@@ -5292,26 +5273,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-extended@npm:2.0.0":
-  version: 2.0.0
-  resolution: "jest-extended@npm:2.0.0"
+"jest-extended@npm:3.0.0":
+  version: 3.0.0
+  resolution: "jest-extended@npm:3.0.0"
   dependencies:
-    jest-diff: "npm:^27.2.5"
-    jest-get-type: "npm:^27.0.6"
+    jest-diff: "npm:^28.0.0"
+    jest-get-type: "npm:^28.0.0"
   peerDependencies:
     jest: ">=27.2.5"
-  checksum: 04278d785360462f187192870616c148ff9bf7941b2422d15805ab6025781de6ce750bc04158308f4b4484c803e1ac6dffae1ef143d110ffc377e822904ba8f7
+  checksum: 1af142d20f46e048e7856472e29c0cd59446213c634ca63ac919eaf996e6baf041d3860f6dcfa66bc0d45810e0f16bbbedb988b8c4990e7c99f96e5a27badfa9
   languageName: node
   linkType: hard
 
-"jest-get-type@npm:^27.0.6, jest-get-type@npm:^27.5.1":
-  version: 27.5.1
-  resolution: "jest-get-type@npm:27.5.1"
-  checksum: 9e7392ff79959e4dcedb30776f28e143ddd2b650de6ba8a9c5e348292c2675e69ac4d4bbd98a5c840016d6570b0716a96e0fcfeab06eb9edfcf7b705c0c7c8db
-  languageName: node
-  linkType: hard
-
-"jest-get-type@npm:^28.0.2":
+"jest-get-type@npm:^28.0.0, jest-get-type@npm:^28.0.2":
   version: 28.0.2
   resolution: "jest-get-type@npm:28.0.2"
   checksum: c359204db304447797aa3b6ad5c2ee378acc91b34f0f9c8a0924fc146360de72357606439033959d4e1b4340f9f5d148d77ea9b820ba622e8955388abb8943d2
@@ -7499,7 +7473,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pretty-format@npm:^27.0.2, pretty-format@npm:^27.5.1":
+"pretty-format@npm:^27.0.2":
   version: 27.5.1
   resolution: "pretty-format@npm:27.5.1"
   dependencies:
