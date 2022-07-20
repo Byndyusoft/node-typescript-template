@@ -475,7 +475,7 @@ __metadata:
     "@commitlint/cli": "npm:17.0.3"
     "@commitlint/config-conventional": "npm:17.0.3"
     "@types/jest": "npm:28.1.5"
-    "@types/node": "npm:18.0.3"
+    "@types/node": "npm:14.18.22"
     eslint: "npm:8.19.0"
     husky: "npm:8.0.1"
     jest: "npm:28.1.3"
@@ -1784,10 +1784,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:18.0.3, @types/node@npm:>=12":
+"@types/node@npm:*, @types/node@npm:>=12":
   version: 18.0.3
   resolution: "@types/node@npm:18.0.3"
   checksum: 2b50e8bd0208dc099424eb1192415b76a6530b24bf7d28344f4be8f59ad1c45bd8788db15ef6e67873bd9e499f2ff235c698f33c5a6d1465012e620580085064
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:14.18.22":
+  version: 14.18.22
+  resolution: "@types/node@npm:14.18.22"
+  checksum: d8e516d6df7e12e622ec9c082bf4d09e4b718345ca0591eb636222d1a2f405491bb3f77787c440e13d13ff3c4be38b1c50b7caf9f5ebb1e014cfa392f688a8f5
   languageName: node
   linkType: hard
 
