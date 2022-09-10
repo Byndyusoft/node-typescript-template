@@ -17,9 +17,7 @@
   "files": [
     "dist",
     "src",
-    "!dist/*.tsbuildinfo",
-    "!**/__tests__",
-    "!**/*spec.ts"
+    "!dist/*.tsbuildinfo"
   ],
   "scripts": {
     "prebuild": "shx rm -rf ./dist",
@@ -42,7 +40,6 @@
   "jest": {
     "collectCoverageFrom": [
       "./src/**/*.ts",
-      "!**/__tests__/**/*.ts",
       "!**/index.ts"
     ],
     "coverageDirectory": "<rootDir>/coverage",
@@ -55,9 +52,7 @@
       "js"
     ],
     "resetMocks": true,
-    "rootDir": "./",
     "roots": [
-      "<rootDir>/src",
       "<rootDir>/test"
     ],
     "setupFilesAfterEnv": [
