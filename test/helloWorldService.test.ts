@@ -23,7 +23,26 @@ describe("HelloWorldService", () => {
     helloWorldService = new HelloWorldService();
   });
 
-  it("must return hello world message", () => {
+  it("must return hello world message", async () => {
+    allure.epic("SOME EPIC");
+    allure.issue("Issue Name", "352");
+    allure.tms("Task Name", "352");
+    allure.link("352", "Link name", "custom");
+
+    await allure.step("step 1", (step) => {
+      step.description("step description");
+
+      expect(1).toStrictEqual(1);
+
+      step.step("step 1.1", () => {});
+    });
+
+    await allure.step("step 2", function (step) {
+      step.description("check refrence step");
+
+      expect(this === step).toBeTrue();
+    });
+
     expect(helloWorldService.getHelloWorldMessage()).toEqualCaseInsensitive(
       "hello world!",
     );

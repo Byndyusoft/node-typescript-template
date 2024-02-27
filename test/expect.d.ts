@@ -15,3 +15,4 @@
  */
 
 import "jest-extended";
+import "allure-jest";

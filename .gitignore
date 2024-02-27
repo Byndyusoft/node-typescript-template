@@ -1,3 +1,7 @@
+### root workspace
+
+allure-results
+
 ### https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
 
 .idea/*
