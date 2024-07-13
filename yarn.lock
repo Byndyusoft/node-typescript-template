@@ -487,7 +487,7 @@ __metadata:
     lint-staged: "npm:13.1.0"
     markdownlint-cli: "npm:0.32.2"
     pinst: "npm:3.0.0"
-    prettier: "npm:2.8.1"
+    prettier: "npm:3.3.3"
     prettier-plugin-packagejson: "npm:2.3.0"
     semantic-release: "npm:19.0.5"
     shx: "npm:0.3.4"
@@ -7645,12 +7645,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.8.1":
-  version: 2.8.1
-  resolution: "prettier@npm:2.8.1"
+"prettier@npm:3.3.3":
+  version: 3.3.3
+  resolution: "prettier@npm:3.3.3"
   bin:
-    prettier: bin-prettier.js
-  checksum: 06a74a0f7aa5877a3912aeeeae3558014b10e438d945f88bd313222e75e7282eb7f41299d204353ec7d00b208377ddc36ffe4c7d2151f0502e783139b934d66d
+    prettier: bin/prettier.cjs
+  checksum: 3e916d14632ee87d85c2fdba1450b2d1fcf5d336b7a2a4256bda080fdd43e946a18033334fe9af069fa52ad0369af46829384ab4d13928a4f937b9af2486469f
   languageName: node
   linkType: hard
 

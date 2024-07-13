@@ -81,7 +81,7 @@
     "lint-staged": "13.1.0",
     "markdownlint-cli": "0.32.2",
     "pinst": "3.0.0",
-    "prettier": "2.8.1",
+    "prettier": "3.3.3",
     "prettier-plugin-packagejson": "2.3.0",
     "semantic-release": "19.0.5",
     "shx": "0.3.4",
