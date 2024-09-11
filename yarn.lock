@@ -481,7 +481,7 @@ __metadata:
     "@types/jest": "npm:29.2.4"
     "@types/node": "npm:14.18.36"
     eslint: "npm:8.30.0"
-    husky: "npm:8.0.2"
+    husky: "npm:9.1.6"
     jest: "npm:29.3.1"
     jest-extended: "npm:3.2.0"
     lint-staged: "npm:13.1.0"
@@ -4681,12 +4681,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:8.0.2":
-  version: 8.0.2
-  resolution: "husky@npm:8.0.2"
+"husky@npm:9.1.6":
+  version: 9.1.6
+  resolution: "husky@npm:9.1.6"
   bin:
-    husky: lib/bin.js
-  checksum: a1274b7c1d84c2a8ae84dc7db211e4736310f55312b91231525e9004eeda791b7953f0164ecb114d02f3db305b9273a1ead311c4fba8be987ca702b999f15e67
+    husky: bin.js
+  checksum: 436fa439fddddf193d9013bafb4c6616ab122f4e0d742dafc3d2fe287f891a0de64c782e6f7002ab11762174de0959cda1ed5953232baf57e305d897658ea389
   languageName: node
   linkType: hard
 
